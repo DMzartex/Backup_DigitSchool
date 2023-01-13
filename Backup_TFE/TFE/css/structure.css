@@ -1,0 +1,112 @@
+/*IMPORT*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* FLEX */
+
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-flex-jcCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.display-flex-alCenter{
+    display: flex;
+    align-items: center;
+}
+
+.justify-Content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.flex-direction-row{
+    flex-direction: row;
+}
+
+
+/* height width */
+
+.width-full{
+    width: 100%;
+}
+
+.height-full{
+    height: 100vh;
+}
+
+
+/* formulaire */
+
+.input{
+    width: 20em;
+    height: 2em;
+    margin-top: 0.3em;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    outline-style: none;
+    border: solid 0.5px  gray;
+    cursor: pointer;
+}
+
+.btnSubmit{
+    background-color: #93CBA3;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 20em;
+    margin-top: 2em;
+    border-radius: 5px;
+    height: 2em;
+}
+
+/* search bar */
+
+.boxSearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnSearch{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 10em;
+    border-radius: 5px;
+    height: 1.5em;
+    margin-top: 0.9em;
+    background-color: #93CBA3;
+}
+
+
+
+
+
+/* BACKGROUND COLOR */
+
+
+.background-red{
+    background-color: red;
+}
+
+/* COLOR */
+
+.color-white{
+    color: white;
+}

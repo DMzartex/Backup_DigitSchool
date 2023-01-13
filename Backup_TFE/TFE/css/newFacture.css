@@ -1,0 +1,186 @@
+body{
+    background: #0A092D;
+}
+.containerBanner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 100%;
+}
+
+.containerTextBanner{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.containerSearchBar{
+    margin: 2em;
+}
+
+.contentBanner{
+    background: #151e2f;
+    width: 50vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 3em;
+}
+
+.textBanner{
+    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    margin: 1em;
+    color: white;
+}
+
+.textGreen{
+ color: #93CBA3;
+}
+
+
+.containerCard{
+    color: white;
+    width: 25vw;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-left: 3px;
+}
+
+.card{
+    border-radius: 5px;
+    width: 12vw;
+    height: 12em;
+    background: #151e2f;
+    margin-left: 3px;
+
+}
+
+.textCard{
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+.iconCard{
+    font-size: 40px;
+}
+
+.containerForm{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contentResult{
+    background: #151e2f;
+    width: 60vw;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.headerResult{
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.colHeader{
+    width: 22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-left: 2.5em;
+}
+
+.txtCol{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+.containerInfo{
+    width: 90%;
+    height: auto;
+
+}
+
+.contentInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0.5em;
+
+}
+
+.txtInfo{
+    width: 22.5%;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    color: white;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 2.5em;
+}
+
+.contentForm{
+    width: 100%;
+    height: 400px;
+    border-top: solid 1px white;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerformFacture{
+    margin: 2em;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.formNewFacture{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.titleFormFacture{
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
